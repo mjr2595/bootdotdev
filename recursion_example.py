@@ -47,7 +47,7 @@ print(sum([1, 2, 3, 4, 5]))  # 15
 
 
 def factorial_r(x):
-    if x == 1:
+    if x <= 1:
         return 1
     return x * factorial_r(x - 1)
 
