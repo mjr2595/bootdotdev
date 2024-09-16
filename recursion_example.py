@@ -46,11 +46,11 @@ def sum(nums):
 print(sum([1, 2, 3, 4, 5]))  # 15
 
 
-def factiorial_r(x):
+def factorial_r(x):
     if x == 1:
         return 1
-    return x * factiorial_r(x - 1)
+    return x * factorial_r(x - 1)
 
 
-print(factiorial_r(5))  # 120
-print(factiorial_r(3))  # 6
+print(factorial_r(5))  # 120
+print(factorial_r(3))  # 6
